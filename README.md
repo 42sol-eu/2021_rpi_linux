@@ -33,18 +33,28 @@ ManjaroARM Linux for my Raspberry Pis
  - **Third Boot Into Sway:**
    - Login ((user and password))
    - [Sway Cheat Sheet](https://depau.github.io/sway-cheatsheet/)
-   - python 3.8 is already installed
-   - git 2.28 is already installed
-   - vim 8.2
-   - lua 5.4
-   - clang 11.0
-   - ruby 2.7
-   - rust 1.47
-   - npm 6.14.8
-   - nodejs 14.13   
-   - asciidoctor 2.0
    
-   - [gitea 1.12.5](https://docs.gitea.io/en-us/command-line/)
+   - install with `sudo pacman -S {{packet}}`
+     - python 3.8 is already installed
+     - git 2.28 is already installed
+     - vim 8.2
+     - lua 5.4
+     - clang 11.0
+     - ruby 2.7
+     - rust 1.47
+     - npm 6.14.8
+     - nodejs 14.13   
+     - asciidoctor 2.0
+   
+     - {--postgresql 12.5 (for gitea)--}
+     - [gitea 1.12.5](https://docs.gitea.io/en-us/command-line/)
+     
+   - setup gitea
+     - {--`sudo systemctl enable postgresql`--}
+     - {--`sudo systemctl start postgressql`--}
+     - start gitea `sudo gitea web --port 3000` 
+     - browse to `https://{{ip_a}}:{{port}}` 
+     -
    
 ## maybe later:   
    - kodi
