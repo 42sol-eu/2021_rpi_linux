@@ -26,9 +26,29 @@ ManjaroARM Linux for my Raspberry Pis
   - Start balneaEtcher (select image + select drive + start )
   - _wait_ 
   - remove the car ((A nice thing with balneaEtcher is the autoremove function of the SD-card so you are free to remove it without any fuzz))
- - **First Boot:**
- - **Second Boot:**
-
+ - **First Boot, Setup and Second Boot Into Sway:**
+   - follow the setup wizard
+   - _wait_ setup and rebooting
+   
+ - **Third Boot Into Sway:**
+   - Login ((user and password))
+   - [Sway Cheat Sheet](https://depau.github.io/sway-cheatsheet/)
+   - python 3.8 is already installed
+   - git 2.28 is already installed
+   - vim 8.2
+   - lua 5.4
+   - clang 11.0
+   - ruby 2.7
+   - rust 1.47
+   - npm 6.14.8
+   - nodejs 14.13   
+   - asciidoctor 2.0
+   
+   - [gitea 1.12.5](https://docs.gitea.io/en-us/command-line/)
+   
+## maybe later:   
+   - kodi
+   
 ## Historical
 
 During my Christmas Holidays I choose to setup my old Raspberry Pi 3 with a working system.
